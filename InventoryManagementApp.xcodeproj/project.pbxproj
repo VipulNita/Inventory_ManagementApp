@@ -11,6 +11,9 @@
 		C1FFECA32C766DE600BA00B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FFECA22C766DE600BA00B0 /* ContentView.swift */; };
 		C1FFECA52C766DE800BA00B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1FFECA42C766DE800BA00B0 /* Assets.xcassets */; };
 		C1FFECA82C766DE800BA00B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1FFECA72C766DE800BA00B0 /* Preview Assets.xcassets */; };
+		C1FFECAF2C7676EF00BA00B0 /* InventoryHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FFECAE2C7676EF00BA00B0 /* InventoryHomeView.swift */; };
+		C1FFECB12C76779B00BA00B0 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FFECB02C76779B00BA00B0 /* ImagePicker.swift */; };
+		C1FFECB32C7677C600BA00B0 /* InventoryItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FFECB22C7677C600BA00B0 /* InventoryItemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		C1FFECA22C766DE600BA00B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C1FFECA42C766DE800BA00B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1FFECA72C766DE800BA00B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1FFECAE2C7676EF00BA00B0 /* InventoryHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryHomeView.swift; sourceTree = "<group>"; };
+		C1FFECB02C76779B00BA00B0 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		C1FFECB22C7677C600BA00B0 /* InventoryItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				C1FFECA02C766DE600BA00B0 /* InventoryManagementAppApp.swift */,
 				C1FFECA22C766DE600BA00B0 /* ContentView.swift */,
+				C1FFECAE2C7676EF00BA00B0 /* InventoryHomeView.swift */,
+				C1FFECB02C76779B00BA00B0 /* ImagePicker.swift */,
+				C1FFECB22C7677C600BA00B0 /* InventoryItemModel.swift */,
 				C1FFECA42C766DE800BA00B0 /* Assets.xcassets */,
 				C1FFECA62C766DE800BA00B0 /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1FFECB32C7677C600BA00B0 /* InventoryItemModel.swift in Sources */,
 				C1FFECA32C766DE600BA00B0 /* ContentView.swift in Sources */,
+				C1FFECB12C76779B00BA00B0 /* ImagePicker.swift in Sources */,
+				C1FFECAF2C7676EF00BA00B0 /* InventoryHomeView.swift in Sources */,
 				C1FFECA12C766DE600BA00B0 /* InventoryManagementAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
